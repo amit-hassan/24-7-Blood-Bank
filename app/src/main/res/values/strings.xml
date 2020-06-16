@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MyfireAppTest</string>
+    <string name="male_text"> Male </string>
+    <string name="female_text"> FeMale </string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="blood_group">
+        <item>o-</item>
+        <item>o+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string-array name="amount_of_blood">
+        <item>1 Bag</item>
+        <item>2 Bag</item>
+        <item>3 Bag</item>
+        <item>4 Bag</item>
+    </string-array>
+
+    <string name="sign_in">Sign In</string>
+
+    <string name="option1">Search Blood</string>
+    <string name="option2">News Feed</string>
+    <string name="option3">Ambulance</string>
+    <string name="option4">All Donor</string>
+    <string name="option5">Request Blood</string>
+    <string name="option6">Facebook Group</string>
+
+
+
+    <!--String Uses for ambulance services-->
+    <string-array name="ambulance_name">
+        <item>Chuadanga Pouroshova Ambulance Service</item>
+        <item>Ambulance Service in Dhaka</item>
+        <item>Milon Ambulance Service</item>
+        <item>Chittagong City Corporation</item>
+        <item>Riha Ambulance Service</item>
+        <item>Mahabub Medical Hall Ambulance Service</item>
+        <item>Red Ambulance Service</item>
+        <item>Bristy Ambulance Service</item>
+        <item>Tuhin Ambulance Service</item>
+        <item>Holy Cresent Ambulance Service</item>
+        <item>Saikat Ambulance Service</item>
+
+    </string-array>
+
+    <string-array name="ambulance_desc">
+        <item>Chuadanga Pouroshova \n +8801826522887</item>
+        <item>Airtport Station Over Bridge, Dhaka \n +8801711980998</item>
+        <item>Bhola Sadar, Bhola \n +8801721225181</item>
+        <item>Chittagong \n +8801819385262</item>
+        <item>Osmani Medical Road 2 No. Gate, Sylhet \n +8801680003303</item>
+        <item>Opposite of Khulna Medical College,Khulna \n +8801721225181</item>
+        <item>Zubeda Complex,Rikaribazar,Sylhet\n +8801716102944</item>
+        <item>Faridpur \n +8801822209567</item>
+        <item>Faridpur \n +8801715530545</item>
+        <item>Chittagong \n 031620025</item>
+        <item>M A Bari st. Khulna \n +8801881086815</item>
+
+    </string-array>
+</resources>
+
+

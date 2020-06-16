@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".BloodRequestActivity">
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/reqNameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Full Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/reqMobileEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Mobile Number"
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/reqAddressEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Address"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/reqRadioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Gender"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <RadioButton
+            android:id="@+id/reqMaleId"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/male_text"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/reqFemaleId"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:text="@string/female_text"
+            android:textSize="20sp" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/reqBloodTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Required Blood Group"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <Spinner
+            android:id="@+id/reqSpinnerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            >
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/reqAmountBloodTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount of Blood"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <Spinner
+            android:id="@+id/reqAmountSpinnerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            >
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/reqBloodEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Why do you need blood?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_margin="15dp"
+        android:id="@+id/reqSaveButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Request"
+
+        />
+
+
+
+</LinearLayout>
